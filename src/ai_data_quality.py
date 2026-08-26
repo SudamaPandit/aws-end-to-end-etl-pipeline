@@ -1,21 +1,23 @@
-"""AI-assisted anomaly triage for pipeline data-quality failures.
+"""AI-assisted anomaly triage using Amazon Bedrock Converse API.
 
-The deterministic rules remain the source of truth. An LLM is used only to
-summarize anomalies for an engineer and suggest investigation priorities.
-No customer data or credentials are sent to the model.
+AI is advisory only. Deterministic data-quality rules remain authoritative,
+and only aggregate pipeline metrics are sent to the model.
 """
+
+from __future__ import annotations
 
 import json
 import os
 from typing import Any
 
+import boto3
+
 
 def build_anomaly_summary(metrics: dict[str, Any]) -> str:
-    """Create a safe, structured prompt for an approved LLM endpoint."""
     payload = json.dumps(metrics, sort_keys=True)
     return (
         "You are assisting a senior data engineer with ETL monitoring. "
-        "Review these aggregate pipeline metrics only; do not infer PII. "
+        "Review these aggregate pipeline metrics only. Do not infer or request PII. "
         "Identify unusual trends, likely technical causes, and the top 3 "
         "investigation steps. Return concise operational guidance.\n\n"
         f"Metrics: {payload}"
@@ -23,18 +25,17 @@ def build_anomaly_summary(metrics: dict[str, Any]) -> str:
 
 
 def triage_with_ai(metrics: dict[str, Any]) -> str:
-    """Call the configured enterprise LLM adapter when enabled.
-
-    The repository intentionally keeps provider-specific credentials and SDK
-    code outside source control. Set AI_ENDPOINT/AI_API_KEY in the runtime.
-    """
-    prompt = build_anomaly_summary(metrics)
-    endpoint = os.getenv("AI_ENDPOINT")
-    api_key = os.getenv("AI_API_KEY")
-
-    if not endpoint or not api_key:
+    """Use Bedrock when configured; otherwise return a safe disabled state."""
+    region = os.getenv("AWS_REGION")
+    model_id = os.getenv("BEDROCK_MODEL_ID")
+    if not region or not model_id:
         return "AI triage disabled; deterministic quality checks remain authoritative."
 
-    # Provider-neutral integration point. A production deployment can connect
-    # this adapter to Amazon Bedrock or an approved enterprise LLM gateway.
-    return f"AI triage request prepared for {endpoint}: {prompt}"
+    client = boto3.client("bedrock-runtime", region_name=region)
+    response = client.converse(
+        modelId=model_id,
+        system=[{"text": "You are an ETL operations assistant. Never request or expose PII."}],
+        messages=[{"role": "user", "content": [{"text": build_anomaly_summary(metrics)}]}],
+        inferenceConfig={"maxTokens": 500, "temperature": 0.1},
+    )
+    return response["output"]["message"]["content"][0]["text"]
