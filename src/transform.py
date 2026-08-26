@@ -9,7 +9,7 @@ def transform_orders(df: pd.DataFrame) -> pd.DataFrame:
         raise ValueError(f"Missing columns: {sorted(missing)}")
 
     result = df.copy()
-    result["order_date"] = pd.to_datetime(result["order_date"], errors="coerce")
+    result["order_date"] = pd.to_datetime(result["order_date"], errors="coerce", format="mixed")
     result["amount"] = pd.to_numeric(result["amount"], errors="coerce")
     result["status"] = result["status"].str.strip().str.upper()
     result = result.dropna(subset=["order_id", "customer_id", "order_date", "amount"])
