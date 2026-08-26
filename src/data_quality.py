@@ -15,14 +15,16 @@ def validate_orders(df: pd.DataFrame) -> dict[str, Any]:
     if missing:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
 
+    amount = pd.to_numeric(df["amount"], errors="coerce")
+    order_date = pd.to_datetime(df["order_date"], errors="coerce")
     checks = {
         "row_count_positive": len(df) > 0,
         "order_id_not_null": df["order_id"].notna().all(),
         "order_id_unique": df["order_id"].is_unique,
         "customer_id_not_null": df["customer_id"].notna().all(),
-        "amount_not_null": df["amount"].notna().all(),
-        "amount_non_negative": (df["amount"] >= 0).all(),
-        "order_date_valid": pd.to_datetime(df["order_date"], errors="coerce").notna().all(),
+        "amount_not_null": amount.notna().all(),
+        "amount_non_negative": (amount >= 0).all(),
+        "order_date_valid": order_date.notna().all(),
         "status_not_null": df["status"].notna().all(),
     }
 
