@@ -1,0 +1,8 @@
+environment: dev
+s3:
+  raw_prefix: raw/orders/
+  curated_prefix: curated/orders/
+source:
+  table: source_orders
+target:
+  table: fact_orders
