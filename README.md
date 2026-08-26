@@ -28,6 +28,8 @@ Apache Airflow ── scheduling / dependencies / retries
 
 GitHub Actions ── automated unit tests on every push/PR
 ```
+<img width="1672" height="941" alt="AWS End-to-End ETL Pipeline" src="https://github.com/user-attachments/assets/caa8e35c-68d7-4af1-bb52-e9e640252dee" />
+
 
 ## Why this is Senior-Level
 
