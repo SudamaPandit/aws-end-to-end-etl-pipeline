@@ -29,10 +29,24 @@ def run_glue():
 
 
 def load_analytics():
-    # The production loader reads the curated S3 dataset and upserts it into
-    # PostgreSQL. The implementation is intentionally isolated from DAG code.
     from src.load import load_curated_orders
-    load_curated_orders()
+    return load_curated_orders()
+
+
+def ai_triage():
+    import boto3
+    from src.ai_data_quality import triage_with_ai
+
+    bucket = os.environ["S3_BUCKET"]
+    prefix = os.environ.get("S3_CURATED_PREFIX", "curated/orders")
+    s3 = boto3.client("s3", region_name=os.getenv("AWS_REGION"))
+    objects = s3.list_objects_v2(Bucket=bucket, Prefix=prefix).get("Contents", [])
+    parquet = [obj for obj in objects if obj["Key"].endswith(".parquet")]
+    metrics = {
+        "curated_object_count": len(parquet),
+        "curated_bytes": sum(obj["Size"] for obj in parquet),
+    }
+    print(triage_with_ai(metrics))
 
 
 with DAG(
@@ -46,5 +60,6 @@ with DAG(
     extract_task = PythonOperator(task_id="extract_to_s3", python_callable=extract_to_s3)
     glue_task = PythonOperator(task_id="transform_with_glue", python_callable=run_glue)
     load_task = PythonOperator(task_id="load_postgres", python_callable=load_analytics)
+    ai_task = PythonOperator(task_id="ai_anomaly_triage", python_callable=ai_triage)
 
-    extract_task >> glue_task >> load_task
+    extract_task >> glue_task >> load_task >> ai_task
