@@ -1,77 +1,123 @@
-# AWS End-to-End ETL Pipeline
+# AWS End-to-End Data Engineering Platform
 
-Corporate-style batch ETL pipeline demonstrating SQL, Python, PostgreSQL, Amazon S3, AWS Glue, Apache Airflow, data quality, and CI/CD.
+A production-oriented batch ETL platform designed to demonstrate the engineering practices expected from a Senior Data Engineer: scalable ingestion, layered data architecture, PySpark transformations, SQL analytics, orchestration, data quality, observability, CI/CD, and responsible AI-assisted operations.
 
 ## Architecture
 
-PostgreSQL → S3 (Raw) → AWS Glue (PySpark) → S3 (Curated) → PostgreSQL (Analytics)
-                                      ↑
-                                Airflow orchestration
+```text
+PostgreSQL Source
+      │
+      │ Incremental extraction
+      ▼
+Amazon S3 — Raw/Bronze
+      │
+      │ AWS Glue / PySpark
+      ▼
+Data Quality + Standardization
+      │
+      ▼
+Amazon S3 — Curated/Silver
+      │
+      │ Partitioned Parquet
+      ▼
+PostgreSQL — Analytics/Gold
+      │
+      ▼
+SQL Analytics
 
-GitHub Actions runs tests and validation on every pull request.
+Apache Airflow ── orchestration / retries / scheduling / monitoring
+GitHub Actions ── CI / automated tests
+AI Layer ── anomaly triage from aggregate pipeline metrics
+```
 
-## Technologies
+## Why this is Senior-Level
 
-- Python / PySpark
-- PostgreSQL / SQL
-- Amazon S3
-- AWS Glue
-- Apache Airflow
-- Docker
-- GitHub Actions
+The project focuses on engineering decisions rather than simply connecting AWS services:
 
-## Pipeline
+- Layered Raw → Curated → Analytics architecture.
+- Idempotent processing so reruns do not corrupt downstream data.
+- Incremental extraction instead of repeatedly moving the complete source dataset.
+- S3 as a durable replayable landing zone.
+- Parquet + date partitioning for efficient analytical processing.
+- PySpark transformations designed for distributed execution.
+- PostgreSQL indexes and parameterized SQL for extraction and analytics workloads.
+- Explicit data-quality gates for schema, null, duplicate, type, and business-rule validation.
+- Airflow dependency management, retries, scheduling, and failure isolation.
+- CI with automated unit tests before changes are merged.
+- Runtime configuration and secrets separated from source code.
 
-1. Extract source data from PostgreSQL.
-2. Land immutable raw data in S3.
-3. Transform and validate data with AWS Glue/PySpark.
-4. Write partitioned curated data to S3.
-5. Load analytics-ready data into PostgreSQL.
-6. Orchestrate the workflow with Airflow.
-7. Run automated Python/SQL tests through CI.
+## AI-Assisted ETL Operations
 
-## Project Structure
+AI is used where it provides practical engineering value rather than being added as a gimmick.
+
+The pipeline can calculate aggregate operational metrics such as:
+
+- Row-count variance versus historical runs
+- Null-rate changes
+- Duplicate/rejected record counts
+- Processing duration changes
+- Partition-level anomalies
+
+These metrics can be passed to an approved enterprise LLM endpoint, such as an Amazon Bedrock integration, to generate a concise incident summary and prioritized troubleshooting steps.
+
+The AI component is deliberately advisory. Deterministic data-quality checks remain the production gate, and raw customer data/credentials are not sent to the model. This demonstrates responsible use of AI in a real data-engineering workflow.
+
+See [`docs/architecture.md`](docs/architecture.md) for the detailed design.
+
+## Technology Stack
+
+| Area | Technology |
+|---|---|
+| Source / Analytics DB | PostgreSQL |
+| Storage | Amazon S3 |
+| Distributed ETL | AWS Glue, PySpark |
+| Orchestration | Apache Airflow |
+| Programming | Python |
+| Query / Analytics | SQL |
+| Testing | Pytest |
+| CI/CD | GitHub Actions |
+| Containers | Docker |
+| AI Operations | Enterprise LLM / Amazon Bedrock integration point |
+
+## Repository Structure
 
 ```text
-aws-end-to-end-etl-pipeline/
-├── dags/
-│   └── etl_pipeline.py
+├── dags/                  # Airflow orchestration
+├── glue/                  # AWS Glue PySpark jobs
 ├── src/
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
-├── glue/
-│   └── transform_job.py
+│   ├── extract.py        # PostgreSQL incremental extraction
+│   ├── transform.py      # Reusable transformations
+│   ├── data_quality.py   # Deterministic quality gates
+│   └── ai_data_quality.py # AI-assisted anomaly triage
 ├── sql/
-│   ├── schema.sql
-│   └── analytics.sql
-├── tests/
-│   └── test_pipeline.py
-├── config/
-│   └── pipeline_config.yaml
-├── docker-compose.yml
+│   ├── schema.sql        # Source and analytics schema
+│   └── analytics.sql     # Business analytics queries
+├── tests/                 # Automated tests
+├── config/                # Non-secret configuration
+├── docs/                  # Architecture and design decisions
+├── .github/workflows/     # CI pipeline
 ├── requirements.txt
 └── README.md
 ```
 
-## Key Engineering Practices
+## End-to-End Flow
 
-- Idempotent pipeline design
-- Incremental processing
-- S3 raw/curated separation
-- Partitioned datasets
-- Data-quality checks
-- Parameterized SQL
-- Environment-based configuration
-- Retry and failure handling in Airflow
-- Automated tests and CI
+1. Extract an incremental slice from PostgreSQL.
+2. Land the source snapshot in immutable S3 Raw storage.
+3. Run AWS Glue/PySpark transformations.
+4. Apply deterministic data-quality rules.
+5. Publish partitioned Parquet to S3 Curated storage.
+6. Load the curated dataset into the PostgreSQL analytics layer.
+7. Execute SQL aggregations for downstream reporting/analysis.
+8. Airflow orchestrates dependencies, retries, and scheduling.
+9. Aggregate pipeline metrics can be sent to the AI triage layer for operational diagnosis.
+10. GitHub Actions runs automated tests on code changes.
 
-## Local Development
+## Local Validation
 
 ```bash
-docker compose up -d
 pip install -r requirements.txt
-pytest
+pytest -q
 ```
 
-AWS credentials and infrastructure-specific values are supplied through environment variables and are never committed to the repository.
+Cloud credentials, database passwords, API keys, and environment-specific values are intentionally excluded from Git and supplied at runtime through secure configuration.
