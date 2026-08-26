@@ -1,27 +1,39 @@
 from datetime import datetime, timedelta
+import os
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 
-def extract():
+def extract_to_s3():
     from src.extract import extract_orders
-    extract_orders("/opt/airflow/data/raw/orders.csv")
+    from src.aws_services import upload_to_s3
+
+    local_path = extract_orders("/tmp/orders.csv")
+    upload_to_s3(
+        local_path,
+        os.environ["S3_BUCKET"],
+        f"{os.environ.get('S3_RAW_PREFIX', 'raw/orders')}/orders.csv",
+    )
 
 
-def transform():
-    import pandas as pd
-    from src.transform import transform_orders
-    df = pd.read_csv("/opt/airflow/data/raw/orders.csv")
-    transform_orders(df).to_parquet("/opt/airflow/data/curated/orders.parquet", index=False)
+def run_glue():
+    from src.aws_services import start_glue_job, wait_for_glue_job
+
+    bucket = os.environ["S3_BUCKET"]
+    source = f"s3://{bucket}/{os.environ.get('S3_RAW_PREFIX', 'raw/orders')}/orders.csv"
+    target = f"s3://{bucket}/{os.environ.get('S3_CURATED_PREFIX', 'curated/orders')}/"
+    job_name = os.environ["GLUE_JOB_NAME"]
+    run_id = start_glue_job(job_name, source, target)
+    wait_for_glue_job(job_name, run_id)
 
 
-def load():
-    # Production deployment replaces this local load with S3/Glue output
-    # and a parameterized PostgreSQL COPY/upsert operation.
-    from pathlib import Path
-    if not Path("/opt/airflow/data/curated/orders.parquet").exists():
-        raise FileNotFoundError("Curated dataset was not produced")
+def load_analytics():
+    # The production loader reads the curated S3 dataset and upserts it into
+    # PostgreSQL. The implementation is intentionally isolated from DAG code.
+    from src.load import load_curated_orders
+    load_curated_orders()
+
 
 with DAG(
     dag_id="aws_end_to_end_etl",
@@ -31,8 +43,8 @@ with DAG(
     default_args={"retries": 2, "retry_delay": timedelta(minutes=5)},
     tags=["etl", "aws", "portfolio"],
 ) as dag:
-    extract_task = PythonOperator(task_id="extract", python_callable=extract)
-    transform_task = PythonOperator(task_id="transform", python_callable=transform)
-    load_task = PythonOperator(task_id="load", python_callable=load)
+    extract_task = PythonOperator(task_id="extract_to_s3", python_callable=extract_to_s3)
+    glue_task = PythonOperator(task_id="transform_with_glue", python_callable=run_glue)
+    load_task = PythonOperator(task_id="load_postgres", python_callable=load_analytics)
 
-    extract_task >> transform_task >> load_task
+    extract_task >> glue_task >> load_task
