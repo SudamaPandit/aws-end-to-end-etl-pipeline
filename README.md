@@ -1,7 +1,7 @@
 # AWS Batch ETL Pipeline
 
-A layered batch ETL platform: Postgres >>> S3 (raw) >>> Glue/PySpark >>> S3
-(curated) >>> Postgres (analytics), orchestrated by Airflow. This is the
+A layered batch ETL platform: Postgres --> S3 (raw) --> Glue/PySpark --> S3
+(curated) --> Postgres (analytics), orchestrated by Airflow. This is the
 "classic" pipeline in my portfolio - no streaming, no ML - built to show
 the fundamentals done correctly: idempotency, incremental extraction,
 data-quality gates, and a layout that survives someone else maintaining it.
