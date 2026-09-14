@@ -1,0 +1,1209 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Outlines 63 0 R /PageMode /UseOutlines >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 22 /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 1236 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (1) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (AWS Batch ETL Pipeline - Complete Guide) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 640 95 5 re f
+BT /FB 32 Tf 0.055 0.11 0.20 rg 52 590 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FB 20 Tf 0.06 0.27 0.48 rg 52 548 Td (Complete Project Guide) Tj ET
+BT /FB 20 Tf 0.06 0.27 0.48 rg 52 518 Td (& Interview Handbook) Tj ET
+BT /FR 12 Tf 0.30 0.34 0.39 rg 52 460 Td (Prepared for Sudama Pandit) Tj ET
+BT /FR 10 Tf 0.30 0.34 0.39 rg 52 438 Td (SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+0.94 0.96 0.98 rg 52 310 508 82 re f
+BT /FB 11 Tf 0.08 0.25 0.43 rg 68 365 Td (POSITIONING) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 345 Td (The repository has passing unit CI and real implementation code, but it is not) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 331 Td (deployment-ready and has not been proven end-to-end against live PostgreSQL,) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 317 Td (Airflow, S3, Glue and Bedrock in CI.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1205 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (2) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Clickable Contents) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 675 Td (1. Executive summary) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 670 m 545 670 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 633 Td (2. Beginner foundations) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 628 m 545 628 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 591 Td (3. Architecture diagram) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 586 m 545 586 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 549 Td (4. End-to-end data flow) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 544 m 545 544 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 507 Td (5. Repository structure) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 502 m 545 502 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 465 Td (6. Folder-wise code walkthrough) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 460 m 545 460 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 423 Td (7. Quality, reliability and security) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 418 m 545 418 l S
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 8 0 R /Annots [50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R] >>
+endobj
+10 0 obj
+<< /Length 1091 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (3) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Clickable Contents \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 690 Td (8. Testing and CI evidence) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 685 m 545 685 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 648 Td (9. Gaps and critical risks) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 643 m 545 643 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 606 Td (10. Production-ready redesign) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 601 m 545 601 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 564 Td (11. Fifty interview questions) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 559 m 545 559 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 522 Td (12. Rapid revision sheet) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 517 m 545 517 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 480 Td (13. Glossary) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 475 m 545 475 l S
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 10 0 R /Annots [57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R] >>
+endobj
+12 0 obj
+<< /Length 2836 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (4) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Executive Summary) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (What this project is) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (A scheduled batch ETL example moves bounded order data from PostgreSQL to an S3 raw prefix,) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (transforms it with AWS Glue/PySpark into partitioned Parquet, and loads it into a PostgreSQL) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 630 Td (analytics table through an upsert. Airflow coordinates the runtime path, while pandas helpers) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 617 Td (make deterministic logic easy to unit-test.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 599 Td (Business value) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 574 Td (Operational order tables should not carry heavy analytics workloads. This design separates) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 561 Td (ingestion, transformation and reporting, gives analysts a clean fact table, and creates) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 548 Td (intermediate storage that can support replay once run-specific immutable keys are added.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 530 Td (60-second interview introduction) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 505 Td (I built a compact AWS batch ETL reference pipeline for orders. Airflow extracts a) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 492 Td (caller-defined date window from PostgreSQL, uploads raw CSV to S3, starts a Glue PySpark) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 479 Td (transformation, and loads curated Parquet into a PostgreSQL fact table with an order_id) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 466 Td (upsert. CI verifies the reusable transformation, quality rules, AI-disabled behavior and Glue) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 453 Td (polling states. I call it a portfolio implementation rather than production-ready because live) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 440 Td (integration, durable watermarking, quarantine, run isolation and infrastructure automation) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 427 Td (remain to be completed.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 409 Td (Honest status) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 384 Td (The repository has passing unit CI and real implementation code, but it is not) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 371 Td (deployment-ready and has not been proven end-to-end against live PostgreSQL, Airflow, S3, Glue) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 358 Td (and Bedrock in CI.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 2375 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (5) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Beginner Foundations) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (Use this section to learn the vocabulary before studying the code. A data pipeline moves data) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (through controlled stages. ETL means extract from a source, transform into a useful and) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 655 Td (reliable shape, and load into a destination.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 637 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 637 Td (Batch processing handles bounded data on a schedule rather than continuously.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 622 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 622 Td (S3 prefixes act like logical folders; raw means minimally changed and curated means) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 610 Td (analytics-ready.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 595 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 595 Td (Parquet is typed, compressed and columnar, unlike the raw CSV landing file.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 580 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 580 Td (A watermark records the last successfully processed point; this repository accepts dates) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 568 Td (but does not persist the watermark.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 553 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 553 Td (Idempotency means a retry reaches the intended same state; the final upsert helps, but) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 541 Td (file-level concurrency is incomplete.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 526 Td (How to study the repository) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 501 Td (First memorize the business flow, then trace one record through every component. Next learn) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (which parts are actual runtime code, which are offline helpers, and which capabilities are) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (missing. In interviews, evidence matters more than broad claims.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3216 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (6) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Architecture Diagram) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 681 Td (The solid flow is implemented in code. Dashed or lighter notes mark external dependencies or) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 668 Td (incomplete production capabilities.) Tj ET
+0.98 0.93 0.86 rg 35 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 35 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 42 500 Td (PostgreSQL) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 42 490 Td (source) Tj ET
+0.96 0.48 0.10 RG 2 w 129 494 m 136 494 l S
+0.96 0.48 0.10 rg 132 490 7 8 re f
+0.90 0.95 0.99 rg 139 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 139 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 146 500 Td (S3 raw) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 146 490 Td (CSV) Tj ET
+0.96 0.48 0.10 RG 2 w 233 494 m 240 494 l S
+0.96 0.48 0.10 rg 236 490 7 8 re f
+0.98 0.93 0.86 rg 243 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 243 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 250 500 Td (Glue) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 250 490 Td (PySpark) Tj ET
+0.96 0.48 0.10 RG 2 w 337 494 m 344 494 l S
+0.96 0.48 0.10 rg 340 490 7 8 re f
+0.90 0.95 0.99 rg 347 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 347 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 354 500 Td (S3 curated) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 354 490 Td (Parquet) Tj ET
+0.96 0.48 0.10 RG 2 w 441 494 m 448 494 l S
+0.96 0.48 0.10 rg 444 490 7 8 re f
+0.98 0.93 0.86 rg 451 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 451 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 458 500 Td (PostgreSQL) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 458 490 Td (fact_orders) Tj ET
+0.91 0.95 0.98 rg 118 585 376 55 re f
+0.10 0.30 0.50 RG 1 w 118 585 376 55 re S
+BT /FB 11 Tf 0.08 0.18 0.28 rg 140 616 Td (AIRFLOW CONTROL PLANE: extract -> transform -> load -> optional AI triage) Tj ET
+BT /FR 8.5 Tf 0.20 0.25 0.31 rg 140 598 Td (Retries and bounded polling are implemented; live service integration is external.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 650 Td (How to explain this diagram) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 625 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 625 Td (PostgreSQL supplies a half-open date window of order records.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 610 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 610 Td (S3 raw decouples extraction from Glue, although the fixed orders.csv key is not truly) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 598 Td (immutable.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 583 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 583 Td (Glue casts, cleans, deduplicates and partitions by order year/month.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 568 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 568 Td (The loader currently downloads curated Parquet into pandas and upserts PostgreSQL.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 553 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 553 Td (Bedrock is optional and advisory; aggregate metrics only are sent.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 2254 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (7) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (End-to-End Data Flow) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (Step 1 - Schedule and configuration) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Airflow schedules the DAG daily. Environment variables supply database URLs, S3 prefixes, Glue) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (job name and extraction dates.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 625 Td (Step 2 - Extract) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 600 Td (src/extract.py executes a parameterized SQL query with START_DATE inclusive and END_DATE) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 587 Td (exclusive, writes /tmp/orders.csv and returns its path.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 569 Td (Step 3 - Raw landing) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 544 Td (src/aws_services.py verifies the file exists and uploads it to the configured S3 raw key.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 526 Td (Step 4 - Glue transformation) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 501 Td (The DAG passes SOURCE_PATH and TARGET_PATH to Glue. Spark casts amount, parses dates,) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (normalizes status, filters some invalid rows, deduplicates order_id and writes) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (year/month-partitioned Parquet in overwrite mode.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 457 Td (Step 5 - Analytics load) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 432 Td (src/load.py lists curated Parquet, downloads files, concatenates them in pandas, writes) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 419 Td (stg_fact_orders and performs PostgreSQL ON CONFLICT\(order_id\) DO UPDATE.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 401 Td (Step 6 - Advisory triage) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (The final optional task sends aggregate curated object count and byte metrics to Bedrock when) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 363 Td (configured.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 3817 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (8) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Repository Structure) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (This table explains what every important folder contributes and whether it is used by the main) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (runtime path.) Tj ET
+0.08 0.25 0.43 rg 52 634 510 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 642 Td (Path) Tj ET
+BT /FB 8 Tf 1 1 1 rg 202 642 Td (Purpose) Tj ET
+BT /FB 8 Tf 1 1 1 rg 407 642 Td (Runtime truth) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 622 Td (.github/workflows/ci.yml) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 622 Td (Python setup, compile and pytest) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 622 Td (Runs in CI; no live services) Tj ET
+0.96 0.97 0.98 rg 52 584 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 602 Td (dags/etl_pipeline.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 602 Td (Airflow task graph) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 602 Td (Runtime entry; not DAG-import) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 592 Td (tested) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 572 Td (glue/transform_job.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 572 Td (Spark transformation) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 572 Td (Intended Glue entry point) Tj ET
+0.96 0.97 0.98 rg 52 544 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 552 Td (src/extract.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 552 Td (PostgreSQL date-window extract) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 552 Td (Called by DAG) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 532 Td (src/aws_services.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 532 Td (S3/Glue adapters and waiter) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 532 Td (Called by DAG) Tj ET
+0.96 0.97 0.98 rg 52 494 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 512 Td (src/transform.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 512 Td (Pandas transformation) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 512 Td (Offline helper; not DAG) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 502 Td (runtime) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 482 Td (src/data_quality.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 482 Td (Deterministic pandas gate) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 482 Td (Tested; not wired to runtime) Tj ET
+0.96 0.97 0.98 rg 52 444 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 462 Td (src/load.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 462 Td (Parquet download and upsert) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 462 Td (Called by DAG; not integration) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 452 Td (tested) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 432 Td (src/ai_data_quality.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 432 Td (Optional Bedrock summary) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 432 Td (Called after load when) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 422 Td (configured) Tj ET
+0.96 0.97 0.98 rg 52 394 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 402 Td (sql/) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 402 Td (Tables, indexes and analytics) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 402 Td (Manual/external application) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 382 Td (config/) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 382 Td (Example YAML) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 382 Td (Not loaded by current runtime) Tj ET
+0.96 0.97 0.98 rg 52 354 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 362 Td (tests/) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 362 Td (Offline unit tests) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 362 Td (Runs in CI) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 3862 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (9) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Folder-wise Code Walkthrough) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (dags/etl_pipeline.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Defines four PythonOperator tasks and their dependency chain. Imports inside task functions) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (delay heavy imports until execution.) Tj ET
+0.955 0.965 0.975 rg 46 587 520 46 re f
+0.80 0.84 0.88 RG 0.6 w 46 587 520 46 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 625 Td (extract_task >> glue_task >> load_task >> ai_task) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 615 Td (schedule = "0 2 * * *") Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 605 Td (retries = 2) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 577 Td (Interview meaning: The graph is clear, but run-specific parameters and concurrency controls) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 564 Td (must be added.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 546 Td (src/extract.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 521 Td (Uses a bound half-open time window so adjacent batches do not overlap at the boundary.) Tj ET
+0.955 0.965 0.975 rg 46 455 520 56 re f
+0.80 0.84 0.88 RG 0.6 w 46 455 520 56 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 503 Td (SELECT order_id, customer_id, order_date, amount, status) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 493 Td (FROM source_orders) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 483 Td (WHERE order_date >= %\(start_date\)s) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 473 Td (AND order_date < %\(end_date\)s) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 445 Td (Interview meaning: This is caller-controlled bounded extraction, not durable incremental state) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 432 Td (or CDC.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 414 Td (glue/transform_job.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 389 Td (Spark performs distributed casting, normalization, filtering, deduplication and partition) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (derivation.) Tj ET
+0.955 0.965 0.975 rg 46 310 520 56 re f
+0.80 0.84 0.88 RG 0.6 w 46 310 520 56 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 358 Td (withColumn\("amount", col\("amount"\).cast\("decimal\(18,2\)"\)\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 348 Td (filter\(col\("order_id"\).isNotNull\(\)\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 338 Td (dropDuplicates\(["order_id"]\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 328 Td (partitionBy\("order_year", "order_month"\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 300 Td (Interview meaning: Glue rules are weaker than the pandas quality contract, which is the) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 287 Td (highest correctness gap.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 269 Td (src/data_quality.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 244 Td (Fails closed on missing columns, empty data, invalid identifiers, amounts, dates and statuses.) Tj ET
+0.955 0.965 0.975 rg 46 188 520 46 re f
+0.80 0.84 0.88 RG 0.6 w 46 188 520 46 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 226 Td (failed = [name for name, passed in checks.items\(\) if not bool\(passed\)]) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 216 Td (if failed:) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 206 Td (raise ValueError\(f"Data-quality checks failed: {failed}"\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 178 Td (Interview meaning: The logic is tested but not wired before curated publication.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 160 Td (src/load.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 135 Td (Stages selected columns and upserts by order_id.) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 1773 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (10) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Continued) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.955 0.965 0.975 rg 46 623 520 66 re f
+0.80 0.84 0.88 RG 0.6 w 46 623 520 66 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 681 Td (INSERT INTO fact_orders \(...\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 671 Td (SELECT ... FROM stg_fact_orders) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 661 Td (ON CONFLICT \(order_id\) DO UPDATE SET) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 651 Td (amount = EXCLUDED.amount,) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 641 Td (loaded_at = CURRENT_TIMESTAMP) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 613 Td (Interview meaning: The final table avoids duplicate IDs, but listing, pandas memory and a) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 600 Td (shared staging table do not scale safely.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 582 Td (src/aws_services.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 557 Td (The Glue waiter recognizes terminal failures and has a bounded timeout.) Tj ET
+0.955 0.965 0.975 rg 46 501 520 46 re f
+0.80 0.84 0.88 RG 0.6 w 46 501 520 46 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 539 Td (if state == "SUCCEEDED": return) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 529 Td (if state in {"FAILED", "STOPPED", "TIMEOUT", "ERROR"}: raise RuntimeError) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 519 Td (raise TimeoutError\(...\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 491 Td (Interview meaning: A deferrable Glue sensor would be more worker-efficient in production.) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 2621 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (11) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Quality, Reliability and Security) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (Idempotency) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (PostgreSQL ON CONFLICT makes repeated order IDs update rather than duplicate. Fixed S3 keys,) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (overwrite mode and a shared staging table mean the entire run is not concurrency-safe.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 625 Td (Data quality) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 600 Td (The pandas gate is strong for the compact schema, but it is not executed by the DAG. Glue also) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 587 Td (omits several equivalent rules.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 569 Td (Partitioning) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 544 Td (Year/month partitions support time pruning, but the correct grain depends on data volume and) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 531 Td (query patterns.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 513 Td (Failure handling) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (Airflow retries tasks and the Glue waiter handles terminal states and timeout. There is no) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (quarantine or run manifest.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 457 Td (Scalability) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 432 Td (Downloading all Parquet into pandas is the first major bottleneck. Production should use) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 419 Td (distributed or bulk loading.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 401 Td (Configuration) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (Environment variables drive runtime. The YAML file is currently documentation rather than an) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 363 Td (active configuration source.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 345 Td (Security baseline) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 320 Td (No real credentials should be stored in Git. Runtime identities should use least-privilege) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 307 Td (roles, secrets should come from a managed secret backend, logs should avoid raw personal data,) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 294 Td (and CI permissions should remain read-only unless a workflow genuinely needs write access.) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 4085 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (12) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Testing and CI Evidence) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (A passing CI badge proves only the checks that CI actually executes. It is not proof of) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (deployment or end-to-end service integration.) Tj ET
+0.08 0.25 0.43 rg 52 634 510 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 642 Td (Area) Tj ET
+BT /FB 8 Tf 1 1 1 rg 207 642 Td (Evidence) Tj ET
+BT /FB 8 Tf 1 1 1 rg 387 642 Td (What it does not prove) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 622 Td (Pandas transform) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 622 Td (Fixture assertions for cleaning,) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 612 Td (dates, amount and deduplication) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 622 Td (Glue equivalence) Tj ET
+0.96 0.97 0.98 rg 52 574 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 592 Td (Quality gate) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 592 Td (Valid and invalid DataFrames raise) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 582 Td (named results/errors) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 592 Td (Runtime enforcement) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 562 Td (AI safety) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 562 Td (Disabled path and prompt content) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 562 Td (Bedrock response/auth behavior) Tj ET
+0.96 0.97 0.98 rg 52 524 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 542 Td (Glue waiter) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 542 Td (Fake client success and terminal) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 532 Td (failure) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 542 Td (Real Glue execution) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 512 Td (CI compile) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 512 Td (src Python compiles on Python 3.12) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 512 Td (Airflow DAG imports) Tj ET
+0.96 0.97 0.98 rg 52 474 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 492 Td (End to end) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 492 Td (Not present) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 492 Td (PostgreSQL-S3-Glue-target) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 482 Td (correctness) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 462 Td (Best interview wording) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 437 Td (I tested the deterministic Python components offline: pandas transformation and quality cases,) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 424 Td (the safe disabled AI path, prompt construction, and Glue waiter state handling with a fake) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 411 Td (client. CI passes those checks. I did not treat that as proof of live PostgreSQL, Airflow, S3) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 398 Td (or Glue execution; I would add Testcontainers, local Spark contract tests, DAG-bag validation) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 385 Td (and a staging AWS smoke test.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 367 Td (Tests to add next) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 342 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 342 Td (PostgreSQL Testcontainers test for extraction and repeated upsert.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 327 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 327 Td (Local Spark test using the exact Glue transformations and invalid fixtures.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 312 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 312 Td (Airflow DagBag import and dependency test.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 297 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 297 Td (botocore Stubber tests for S3 and Glue request contracts.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 282 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 282 Td (Small AWS staging run with source-to-target reconciliation.) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 3590 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (13) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Gaps and Critical Risks) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (These are not reasons to hide the project. They are the strongest discussion points because) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (they show that you can distinguish a portfolio implementation from a production system.) Tj ET
+0.08 0.25 0.43 rg 52 634 530 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 642 Td (Severity) Tj ET
+BT /FB 8 Tf 1 1 1 rg 127 642 Td (Risk) Tj ET
+BT /FB 8 Tf 1 1 1 rg 317 642 Td (Consequence / response) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 622 Td (Critical) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 622 Td (Pandas quality gate is not in) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 612 Td (runtime path) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 622 Td (Bad customer IDs, dates or statuses can reach) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 612 Td (curated output; enforce one canonical Spark) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 602 Td (contract.) Tj ET
+0.96 0.97 0.98 rg 52 564 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 582 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 582 Td (Fixed raw key and overwrite target) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 582 Td (Concurrent runs can overwrite each other; use) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 572 Td (run-specific paths and atomic promotion.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 552 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 552 Td (Unbounded pandas load) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 552 Td (Memory/local disk failure at scale; use Spark, COPY) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 542 Td (or warehouse-native load.) Tj ET
+0.96 0.97 0.98 rg 52 504 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 522 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 522 Td (S3 listing is not paginated) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 522 Td (Files beyond the first page can be missed; use) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 512 Td (paginator or manifest.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 492 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 492 Td (No durable watermark or CDC) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 492 Td (Gaps, overlaps and deletes are caller-managed; add) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 482 Td (a control table or CDC.) Tj ET
+0.96 0.97 0.98 rg 52 444 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 462 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 462 Td (Shared staging table) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 462 Td (Concurrent loaders interfere; use unique staging) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 452 Td (and transactional publication.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 432 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 432 Td (No quarantine) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 432 Td (Rejected records are not recoverable; store) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 422 Td (reason-coded rejects.) Tj ET
+0.96 0.97 0.98 rg 52 384 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 402 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 402 Td (Heavy loose dependencies) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 402 Td (Builds can drift or slow; split and pin) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 392 Td (environments.) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 2295 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (14) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Production-Ready Redesign) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (Phase 1: Correctness first) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Define an explicit schema, unify pandas/Spark rules, wire the gate into Glue, write a) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (quarantine dataset and reconcile counts.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 625 Td (Phase 2: Run isolation) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 600 Td (Use logical date/run ID paths, unique staging tables, manifests, controlled overwrite and) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 587 Td (Airflow concurrency limits.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 569 Td (Phase 3: Integration evidence) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 544 Td (Add PostgreSQL containers, local Spark, DAG import checks, client stubs and a small real) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 531 Td (staging test.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 513 Td (Phase 4: Infrastructure and operations) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (Provision S3, IAM, Glue, logging, alarms and secret access through Terraform; add run) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (manifests, SLAs and runbooks.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 457 Td (Phase 5: Scale and CDC) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 432 Td (Replace pandas loading, compact files, paginate listings and adopt DMS/Debezium or durable) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 419 Td (watermark state.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 401 Td (How to answer design follow-ups) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (Use Context -> Decision -> Trade-off -> Evidence -> Next step. State what the repository) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 363 Td (demonstrates, cite the exact test or implementation, acknowledge the boundary, and explain the) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 350 Td (production change. Never invent deployment history.) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 4568 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (15) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Fifty Interview Questions) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 681 Td (The answers below are written as spoken interview responses. Learn the ideas rather than) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 668 Td (memorizing every word.) Tj ET
+0.96 0.48 0.10 rg 52 647 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 652 Td (1) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 650 Td (Explain the project end to end.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 632 Td (Interview-ready answer: Airflow extracts a bounded order window from PostgreSQL, uploads CSV) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 620 Td (to S3 raw, starts Glue to create partitioned Parquet, then loads the curated files into) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 608 Td (fact_orders with an upsert. An optional Bedrock step summarizes aggregate operational) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 596 Td (metrics.) Tj ET
+0.96 0.48 0.10 rg 52 570 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 575 Td (2) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 573 Td (Why use a half-open date range?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 555 Td (Interview-ready answer: Using start inclusive and end exclusive lets adjacent windows meet) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 543 Td (without double-counting the boundary timestamp. The current dates are caller-controlled; I) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 531 Td (would persist the last successful watermark in production.) Tj ET
+0.96 0.48 0.10 rg 52 505 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 510 Td (3) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 508 Td (Where is watermark state?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 490 Td (Interview-ready answer: It is not implemented. I call the current approach bounded) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 478 Td (extraction rather than true stateful incremental loading, and I would add a control table) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 466 Td (advanced only after successful reconciliation.) Tj ET
+0.96 0.48 0.10 rg 52 440 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 445 Td (4) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 443 Td (Is raw S3 really immutable?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 425 Td (Interview-ready answer: Not yet, because the DAG writes a fixed orders.csv key. I would use) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 413 Td (source/date/run-specific keys and versioning or write-once controls.) Tj ET
+0.96 0.48 0.10 rg 52 387 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 392 Td (5) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 390 Td (How are duplicates handled?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 372 Td (Interview-ready answer: Glue drops duplicate order_id values inside the input and PostgreSQL) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 360 Td (upserts on order_id. I still need a deterministic rule for which duplicate wins, preferably) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 348 Td (based on source update sequence.) Tj ET
+0.96 0.48 0.10 rg 52 322 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 327 Td (6) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 325 Td (How are deletes handled?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 307 Td (Interview-ready answer: They are not propagated. I would use CDC tombstones or periodic) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 295 Td (source-target reconciliation with a soft-delete strategy.) Tj ET
+0.96 0.48 0.10 rg 52 269 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 274 Td (7) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 272 Td (Why is the quality gate a concern?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 254 Td (Interview-ready answer: The pandas gate is tested but the DAG does not call it, and Glue) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 242 Td (applies only a subset. My first correctness change would enforce the canonical rules in Glue) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 230 Td (before publication.) Tj ET
+0.96 0.48 0.10 rg 52 204 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 209 Td (8) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 207 Td (What happens if Glue hangs?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 189 Td (Interview-ready answer: The waiter polls with a timeout and raises TimeoutError. In) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 177 Td (production I would use an Airflow deferrable sensor to avoid occupying a worker.) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 4755 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (16) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (9) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (Can two DAG runs overlap safely?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: No. They share local paths, S3 keys, overwrite targets and the) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (staging table. I would isolate every run and add concurrency controls.) Tj ET
+0.96 0.48 0.10 rg 52 625 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 630 Td (10) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 628 Td (Why use Parquet?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 610 Td (Interview-ready answer: It preserves types, compresses well and supports column and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (partition pruning, which reduces analytical scan cost compared with CSV.) Tj ET
+0.96 0.48 0.10 rg 52 572 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 577 Td (11) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 575 Td (What happens after 1,000 S3 objects?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 557 Td (Interview-ready answer: The current list_objects_v2 call does not paginate, so later objects) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 545 Td (can be ignored. I would use a paginator or load from an explicit manifest.) Tj ET
+0.96 0.48 0.10 rg 52 519 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 524 Td (12) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 522 Td (Why is pandas loading risky?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 504 Td (Interview-ready answer: The loader downloads every curated file and concatenates it in one) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 492 Td (process, so local disk and memory become bottlenecks. I would use Spark/JDBC or bulk loading) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 480 Td (for meaningful scale.) Tj ET
+0.96 0.48 0.10 rg 52 454 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 459 Td (13) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 457 Td (How would you prove idempotency?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 439 Td (Interview-ready answer: I would load the same batch twice into ephemeral PostgreSQL and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 427 Td (assert stable row count and values, then change one source record and verify only that row) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 415 Td (updates.) Tj ET
+0.96 0.48 0.10 rg 52 389 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 394 Td (14) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 392 Td (Why is Bedrock included?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 374 Td (Interview-ready answer: Only as an optional advisory layer for aggregate metric summaries.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 362 Td (Deterministic checks remain authoritative and ETL should succeed even if AI is disabled.) Tj ET
+0.96 0.48 0.10 rg 52 336 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 341 Td (15) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 339 Td (Would you put AI in the critical path?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 321 Td (Interview-ready answer: No. A model should not decide whether data is correct or published.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 309 Td (It can reduce investigation time, but rule-based gates control outcomes.) Tj ET
+0.96 0.48 0.10 rg 52 283 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 288 Td (16) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 286 Td (What does CI actually run?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 268 Td (Interview-ready answer: Python 3.12 setup, dependency installation, src compilation and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 256 Td (pytest. It does not provision or call live infrastructure.) Tj ET
+0.96 0.48 0.10 rg 52 230 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 235 Td (17) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 233 Td (Where is Terraform?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 215 Td (Interview-ready answer: It is not included. The AWS resources must exist externally, so) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 203 Td (infrastructure-as-code is a required production improvement.) Tj ET
+0.96 0.48 0.10 rg 52 177 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 182 Td (18) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 180 Td (How would you backfill one month?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 162 Td (Interview-ready answer: I would split it into bounded daily windows, give each run isolated) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 150 Td (paths, control parallelism, upsert idempotently and reconcile every completed slice.) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 4896 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (17) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (19) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (What is the first production fix?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: Wire a canonical Spark quality gate with explicit schema and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (quarantine, because correctness must be established before scaling or adding features.) Tj ET
+0.96 0.48 0.10 rg 52 625 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 630 Td (20) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 628 Td (How would you explain the project without overclaiming?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 610 Td (Interview-ready answer: I say it demonstrates the batch design and tested Python behavior,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (while live integration and deployment are not yet proven. Then I explain the exact tests) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (needed to close that gap.) Tj ET
+0.96 0.48 0.10 rg 52 560 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 565 Td (21) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 563 Td (What is the benefit of staging before upsert?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 545 Td (Interview-ready answer: It separates bulk ingestion from merge logic and allows validation) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (before touching the target. The current shared staging table needs run-specific isolation.) Tj ET
+0.96 0.48 0.10 rg 52 507 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 512 Td (22) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 510 Td (How would you optimize monthly queries?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 492 Td (Interview-ready answer: Keep date-oriented partitioning upstream, index appropriate target) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 480 Td (columns, inspect EXPLAIN ANALYZE and consider summary tables if repeated aggregation becomes) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (expensive.) Tj ET
+0.96 0.48 0.10 rg 52 442 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 447 Td (23) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 445 Td (What happens on an invalid amount?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 427 Td (Interview-ready answer: The pandas gate rejects non-numeric or negative values. Glue casts) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 415 Td (and removes negative values, but nulls created by failed casts need an explicit) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (rejection/quarantine rule.) Tj ET
+0.96 0.48 0.10 rg 52 377 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 382 Td (24) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 380 Td (Why import inside Airflow task functions?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 362 Td (Interview-ready answer: It reduces DAG parse-time dependency work and keeps execution) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 350 Td (imports close to tasks. I would still verify the DAG with DagBag in CI.) Tj ET
+0.96 0.48 0.10 rg 52 324 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 329 Td (25) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 327 Td (What would fail first at one terabyte?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 309 Td (Interview-ready answer: The pandas-based loader and local downloads would fail first.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 297 Td (Transformation can scale with Spark, but the load path must also be distributed or) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 285 Td (bulk-oriented.) Tj ET
+0.96 0.48 0.10 rg 52 259 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 264 Td (26) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 262 Td (Did you deploy this project?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 244 Td (Interview-ready answer: I describe it as a working portfolio implementation with passing) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 232 Td (unit CI, not as a production deployment. The repository proves specific code paths; a) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 220 Td (staging environment and integration evidence are still required.) Tj ET
+0.96 0.48 0.10 rg 52 194 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 199 Td (27) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 197 Td (What exactly did you test?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 179 Td (Interview-ready answer: I tested pandas transformations and quality failures, AI disabled) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 167 Td (behavior and prompt content, and Glue waiter success/failure states. Those tests run offline) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 155 Td (and isolate deterministic behavior, so I do not claim they validate live external services.) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 5179 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (18) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (28) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (Why does green CI not prove the platform works?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: CI executes syntax and unit tests, but it does not automatically) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (prove networking, IAM, service configuration, runtime compatibility or end-to-end data) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (correctness. I would add integration and staging smoke tests for that evidence.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (29) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (What is the biggest gap?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: The most important gap is the mismatch between the tested pandas) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (quality gate and the actual Glue runtime path. I would address it before calling the system) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (production-ready.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (30) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How do you handle secrets?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: The repository should contain examples only. I would use workload) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (identities or IAM roles for cloud access and a managed secret backend for database) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 509 Td (credentials, with least privilege and rotation.) Tj ET
+0.96 0.48 0.10 rg 52 483 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 488 Td (31) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 486 Td (How do you handle logging?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (Interview-ready answer: I would use structured logs with run or batch identifiers, input and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (output counts, durations, quality results and error categories. I would avoid raw customer) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 444 Td (data and make logs searchable in a central platform.) Tj ET
+0.96 0.48 0.10 rg 52 418 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 423 Td (32) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 421 Td (How do you monitor data freshness?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (Interview-ready answer: I would record the newest processed event or business timestamp and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 391 Td (compare it with the freshness SLA. Breaches should alert with the affected dataset and last) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 379 Td (successful run.) Tj ET
+0.96 0.48 0.10 rg 52 353 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 358 Td (33) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 356 Td (How do you make retries safe?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 338 Td (Interview-ready answer: Every side effect needs an idempotency key or deterministic batch) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 326 Td (identifier. I would isolate run outputs, use upserts or transactional publication, and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 314 Td (ensure a retry cannot duplicate or overwrite another run.) Tj ET
+0.96 0.48 0.10 rg 52 288 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 293 Td (34) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 291 Td (How do you support backfills?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 273 Td (Interview-ready answer: I would parameterize a bounded time range, use run-specific outputs,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 261 Td (limit concurrency, reconcile every partition, and record completion in a control table so a) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 249 Td (failed slice can be resumed safely.) Tj ET
+0.96 0.48 0.10 rg 52 223 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 228 Td (35) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 226 Td (How do you prevent schema drift?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 208 Td (Interview-ready answer: I would define an explicit versioned contract, validate it at) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 196 Td (ingestion, quarantine incompatible records, test producer-consumer compatibility and allow) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 184 Td (only reviewed evolution.) Tj ET
+0.96 0.48 0.10 rg 52 158 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 163 Td (36) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 161 Td (How would you improve CI?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 143 Td (Interview-ready answer: I would keep fast unit checks, add linting and dependency scanning,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 131 Td (then add targeted integration jobs using ephemeral infrastructure. Live staging smoke tests) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 119 Td (should run separately with tightly scoped credentials.) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 5075 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (19) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (37) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (How would you test external services?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: I would combine client stubs for request contracts, local or) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (containerized substitutes where accurate, and a small real staging test for service-specific) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (behavior that emulators cannot prove.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (38) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (How do you protect customer data?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: I would minimize collected fields, encrypt in transit and at rest,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (restrict access by role and prefix/table, mask sensitive fields, set retention policies and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (audit access.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (39) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How do you estimate capacity?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: I would measure arrival rate, record size, daily volume, peak) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (concurrency, transformation cost and downstream throughput. Those numbers drive) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 509 Td (partitioning, compute sizing and retention choices.) Tj ET
+0.96 0.48 0.10 rg 52 483 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 488 Td (40) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 486 Td (What happens when data quality fails?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (Interview-ready answer: Production should stop publication for critical failures, persist) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (rejected records with reason codes, alert the owner and support corrected replay.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 444 Td (Warning-level rules can continue with explicit metrics.) Tj ET
+0.96 0.48 0.10 rg 52 418 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 423 Td (41) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 421 Td (How do you prove lineage?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (Interview-ready answer: I would attach run ID, source window, input location, code version) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 391 Td (and output location to a run manifest and integrate those records with a catalog or lineage) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 379 Td (platform.) Tj ET
+0.96 0.48 0.10 rg 52 353 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 358 Td (42) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 356 Td (What would you document for operations?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 338 Td (Interview-ready answer: I would document SLAs, owners, dependencies, restart and backfill) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 326 Td (procedures, common failure signatures, data contracts, access requirements and rollback) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 314 Td (steps.) Tj ET
+0.96 0.48 0.10 rg 52 288 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 293 Td (43) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 291 Td (What would fail first at scale?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 273 Td (Interview-ready answer: The first bottleneck is likely the all-files-to-local-pandas loader.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 261 Td (I would validate that with load tests and redesign before increasing volume.) Tj ET
+0.96 0.48 0.10 rg 52 235 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 240 Td (44) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 238 Td (How do you control cost?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 220 Td (Interview-ready answer: I would right-size compute, prune partitions, compact small files,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 208 Td (apply storage lifecycle rules, cap retries and timeouts, and publish per-run cost and volume) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 196 Td (metrics.) Tj ET
+0.96 0.48 0.10 rg 52 170 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 175 Td (45) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 173 Td (What would you change in your first week?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 155 Td (Interview-ready answer: I would first add evidence around the highest-risk path: wire) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 143 Td (canonical Spark validation/quarantine, isolate run paths, paginate S3 and add) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 131 Td (PostgreSQL/local-Spark integration tests. Then I would update the runbook and architecture) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 119 Td (based on measured results.) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 3034 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (20) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (46) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (How do you explain a limitation without weakening your interview?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: I state the boundary directly, explain why the current choice was) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (reasonable for a portfolio scope, cite what is actually tested, and give a concrete) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (production solution.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (47) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (Why should an interviewer value this project?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: It shows that I understand the complete data lifecycle and can) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (review my own design critically. I can discuss implementation, tests, failure modes and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (realistic hardening rather than only drawing an architecture.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (48) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How would you perform a production readiness review?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: I would review correctness, recoverability, security, scalability,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (observability, deployment, cost and ownership. Each requirement needs evidence, not only) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 509 Td (code presence.) Tj ET
+0.96 0.48 0.10 rg 52 483 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 488 Td (49) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 486 Td (What is your rollback strategy?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (Interview-ready answer: I would version code and data outputs, publish atomically, retain) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (the previous valid version, and make consumers switch through a controlled pointer or view.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 444 Td (Rollback steps must be tested.) Tj ET
+0.96 0.48 0.10 rg 52 418 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 423 Td (50) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 421 Td (Give the honest one-line status.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (Interview-ready answer: This is a compact, technically useful portfolio implementation with) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 391 Td (verified unit behavior and clearly documented production gaps; it is not a fully deployed) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 379 Td (platform.) Tj ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 1946 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (21) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Rapid Revision Sheet) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (One-minute memory map) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 656 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 656 Td (Flow: PostgreSQL -> S3 raw CSV -> Glue -> S3 curated Parquet -> PostgreSQL fact table.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 641 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 641 Td (Orchestrator: Airflow with retries and bounded Glue polling.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 626 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 626 Td (Incremental truth: caller-defined dates, not persisted watermark or CDC.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 611 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 611 Td (Idempotency truth: final upsert helps; file and concurrency safety remain incomplete.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 596 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 596 Td (Testing truth: offline unit CI, no live end-to-end proof.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 581 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 581 Td (Top risk: canonical quality rules are not wired into the runtime path.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 566 Td (Safe sentence when challenged) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 541 Td (The repository demonstrates the design and unit-tests specific offline behavior. It does not) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 528 Td (prove every external integration or a production deployment. I can show exactly what is) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 515 Td (verified and what I would add to prove the remaining path.) Tj ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 2237 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (AWS Batch ETL Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/aws-end-to-end-etl-pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (22) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Glossary) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.08 0.25 0.43 rg 52 665 510 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 673 Td (Term) Tj ET
+BT /FB 8 Tf 1 1 1 rg 207 673 Td (Meaning) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 653 Td (Airflow) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 653 Td (Workflow scheduler and dependency orchestrator.) Tj ET
+0.96 0.97 0.98 rg 52 625 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 633 Td (Glue) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 633 Td (AWS managed Spark-based data integration service.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 613 Td (Parquet) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 613 Td (Compressed columnar storage format.) Tj ET
+0.96 0.97 0.98 rg 52 585 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 593 Td (Watermark) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 593 Td (Stored progress point for incremental processing.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 573 Td (CDC) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 573 Td (Change data capture for inserts, updates and deletes.) Tj ET
+0.96 0.97 0.98 rg 52 545 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 553 Td (Upsert) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 553 Td (Insert a new record or update an existing match.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 533 Td (Quarantine) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 533 Td (Durable rejected records plus reason codes.) Tj ET
+0.96 0.97 0.98 rg 52 505 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 513 Td (Idempotency) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 513 Td (A retry reaches the intended same state.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 493 Td (Reconciliation) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 493 Td (Compare source, intermediate and target metrics.) Tj ET
+0.96 0.97 0.98 rg 52 465 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 473 Td (Partition pruning) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 473 Td (Read only partitions relevant to a query.) Tj ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 667 558 685] /Border [0 0 0] /A << /S /GoTo /D [13 0 R /Fit] >> >>
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 625 558 643] /Border [0 0 0] /A << /S /GoTo /D [15 0 R /Fit] >> >>
+endobj
+52 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 583 558 601] /Border [0 0 0] /A << /S /GoTo /D [17 0 R /Fit] >> >>
+endobj
+53 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 541 558 559] /Border [0 0 0] /A << /S /GoTo /D [19 0 R /Fit] >> >>
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 499 558 517] /Border [0 0 0] /A << /S /GoTo /D [21 0 R /Fit] >> >>
+endobj
+55 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 457 558 475] /Border [0 0 0] /A << /S /GoTo /D [23 0 R /Fit] >> >>
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 415 558 433] /Border [0 0 0] /A << /S /GoTo /D [27 0 R /Fit] >> >>
+endobj
+57 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 682 558 700] /Border [0 0 0] /A << /S /GoTo /D [29 0 R /Fit] >> >>
+endobj
+58 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 640 558 658] /Border [0 0 0] /A << /S /GoTo /D [31 0 R /Fit] >> >>
+endobj
+59 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 598 558 616] /Border [0 0 0] /A << /S /GoTo /D [33 0 R /Fit] >> >>
+endobj
+60 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 556 558 574] /Border [0 0 0] /A << /S /GoTo /D [35 0 R /Fit] >> >>
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 514 558 532] /Border [0 0 0] /A << /S /GoTo /D [47 0 R /Fit] >> >>
+endobj
+62 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 472 558 490] /Border [0 0 0] /A << /S /GoTo /D [49 0 R /Fit] >> >>
+endobj
+63 0 obj
+<< /Type /Outlines /First 64 0 R /Last 76 0 R /Count 13 >>
+endobj
+64 0 obj
+<< /Title (1. Executive summary) /Parent 63 0 R /Next 65 0 R /Dest [13 0 R /Fit] >>
+endobj
+65 0 obj
+<< /Title (2. Beginner foundations) /Parent 63 0 R /Prev 64 0 R /Next 66 0 R /Dest [15 0 R /Fit] >>
+endobj
+66 0 obj
+<< /Title (3. Architecture diagram) /Parent 63 0 R /Prev 65 0 R /Next 67 0 R /Dest [17 0 R /Fit] >>
+endobj
+67 0 obj
+<< /Title (4. End-to-end data flow) /Parent 63 0 R /Prev 66 0 R /Next 68 0 R /Dest [19 0 R /Fit] >>
+endobj
+68 0 obj
+<< /Title (5. Repository structure) /Parent 63 0 R /Prev 67 0 R /Next 69 0 R /Dest [21 0 R /Fit] >>
+endobj
+69 0 obj
+<< /Title (6. Folder-wise code walkthrough) /Parent 63 0 R /Prev 68 0 R /Next 70 0 R /Dest [23 0 R /Fit] >>
+endobj
+70 0 obj
+<< /Title (7. Quality, reliability and security) /Parent 63 0 R /Prev 69 0 R /Next 71 0 R /Dest [27 0 R /Fit] >>
+endobj
+71 0 obj
+<< /Title (8. Testing and CI evidence) /Parent 63 0 R /Prev 70 0 R /Next 72 0 R /Dest [29 0 R /Fit] >>
+endobj
+72 0 obj
+<< /Title (9. Gaps and critical risks) /Parent 63 0 R /Prev 71 0 R /Next 73 0 R /Dest [31 0 R /Fit] >>
+endobj
+73 0 obj
+<< /Title (10. Production-ready redesign) /Parent 63 0 R /Prev 72 0 R /Next 74 0 R /Dest [33 0 R /Fit] >>
+endobj
+74 0 obj
+<< /Title (11. Fifty interview questions) /Parent 63 0 R /Prev 73 0 R /Next 75 0 R /Dest [35 0 R /Fit] >>
+endobj
+75 0 obj
+<< /Title (12. Rapid revision sheet) /Parent 63 0 R /Prev 74 0 R /Next 76 0 R /Dest [47 0 R /Fit] >>
+endobj
+76 0 obj
+<< /Title (13. Glossary) /Parent 63 0 R /Prev 75 0 R /Dest [49 0 R /Fit] >>
+endobj
+xref
+0 77
+0000000000 65535 f 
+0000000015 00000 n 
+0000000104 00000 n 
+0000000308 00000 n 
+0000000378 00000 n 
+0000000453 00000 n 
+0000000521 00000 n 
+0000001809 00000 n 
+0000001955 00000 n 
+0000003212 00000 n 
+0000003417 00000 n 
+0000004561 00000 n 
+0000004761 00000 n 
+0000007650 00000 n 
+0000007798 00000 n 
+0000010226 00000 n 
+0000010374 00000 n 
+0000013643 00000 n 
+0000013791 00000 n 
+0000016098 00000 n 
+0000016246 00000 n 
+0000020116 00000 n 
+0000020264 00000 n 
+0000024179 00000 n 
+0000024327 00000 n 
+0000026153 00000 n 
+0000026301 00000 n 
+0000028975 00000 n 
+0000029123 00000 n 
+0000033261 00000 n 
+0000033409 00000 n 
+0000037052 00000 n 
+0000037200 00000 n 
+0000039548 00000 n 
+0000039696 00000 n 
+0000044317 00000 n 
+0000044465 00000 n 
+0000049273 00000 n 
+0000049421 00000 n 
+0000054370 00000 n 
+0000054518 00000 n 
+0000059750 00000 n 
+0000059898 00000 n 
+0000065026 00000 n 
+0000065174 00000 n 
+0000068261 00000 n 
+0000068409 00000 n 
+0000070408 00000 n 
+0000070556 00000 n 
+0000072846 00000 n 
+0000072994 00000 n 
+0000073118 00000 n 
+0000073242 00000 n 
+0000073366 00000 n 
+0000073490 00000 n 
+0000073614 00000 n 
+0000073738 00000 n 
+0000073862 00000 n 
+0000073986 00000 n 
+0000074110 00000 n 
+0000074234 00000 n 
+0000074358 00000 n 
+0000074482 00000 n 
+0000074606 00000 n 
+0000074681 00000 n 
+0000074781 00000 n 
+0000074897 00000 n 
+0000075013 00000 n 
+0000075129 00000 n 
+0000075245 00000 n 
+0000075369 00000 n 
+0000075498 00000 n 
+0000075617 00000 n 
+0000075736 00000 n 
+0000075858 00000 n 
+0000075980 00000 n 
+0000076097 00000 n 
+trailer
+<< /Size 77 /Root 1 0 R >>
+startxref
+76189
+%%EOF
