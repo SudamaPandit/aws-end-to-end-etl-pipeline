@@ -41,6 +41,7 @@ def test_missing_columns_raise_error():
 ])
 def test_data_quality_rejects_invalid_values(column, value, check):
     bad = transform_orders(valid_orders())
+    bad[column] = bad[column].astype(object)
     bad.loc[0, column] = value
     with pytest.raises(ValueError, match=check):
         validate_orders(bad)
